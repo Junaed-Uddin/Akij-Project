@@ -31,8 +31,14 @@ body{
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
   transition: .5s;
+  
 }
 
+
+#background{
+  background-color : #0b0b4d;
+
+}
 a{
   text-decoration: none;
 }
@@ -55,9 +61,7 @@ a{
 
 
 /* searchbar  */
-#searchbar{
-  display: inline-flex;
-}
+
 
 .searchbar{
   margin-bottom: auto;
@@ -82,13 +86,13 @@ a{
   .searchbar:hover > .search_input{
   padding: 0 10px;
   width: 450px;
-  caret-color:red;
+  caret-color:#373b53;
   transition: width 0.4s linear;
   }
 
   .searchbar:hover > .search_icon{
   background: white;
-  color: #e74c3c;
+  color: #373b53;
   }
 
   .search_icon{
