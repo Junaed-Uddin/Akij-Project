@@ -34,6 +34,7 @@ body {
     font-family: var(--body-font);
     font-size: var(--normal-font-size);
     transition: .5s;
+    /* background-color: #E3F7FA; */
 }
 
 a {
@@ -58,13 +59,12 @@ a {
     transition: .5s;
 }
 
+/* dashboard */
+.background{
+    background-color: #E3F7FA;
+}
 
-/* searchbar  */
 
-
-/* #searchbar{
-  display: inline-flex;
-} */
 
 .searchbar {
     margin-bottom: auto;
@@ -130,6 +130,10 @@ a {
 .header__img img {
     width: 40px;
     border-radius: 50%;
+}
+
+#background{
+    color: rgb(9, 218, 218);
 }
 
 
