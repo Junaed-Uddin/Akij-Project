@@ -62,7 +62,7 @@ a {
 /* dashboard */
 .background{
     background-color: #E3F7FA;
-    padding: 10px;
+    padding: 20px;
 }
 
 .dashboard{
@@ -70,15 +70,12 @@ a {
 }
 
 .button-align{
-    border-radius: 10px; 
+    border-radius: 5px; 
     margin-left: auto;
     margin-right: 5px;
 }
 
 .button-align:hover{
-    border-radius: 10px; 
-    margin-left: auto;
-    margin-right: 5px;
     background-color: black;
 }
 
@@ -87,13 +84,18 @@ a {
     margin-top: auto;
     margin-right: auto;
     height: 45px;
-    background-color: #373b53;
+    background-color: #a6acc9b2;
     border-radius: 30px;
     padding: 10px;
 }
 
+
+.searchbar:hover {
+    background-color: #a6acc9b2;
+}
+
 .search_input {
-    color: white;
+
     border: 0;
     outline: 0;
     background: none;
@@ -112,7 +114,7 @@ a {
 
 .searchbar:hover>.search_icon {
     background: white;
-    color: #e74c3c;
+    color: #000000;
 }
 
 .search_icon {
@@ -123,7 +125,7 @@ a {
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    color: white;
+    color: rgb(0, 0, 0);
     text-decoration: none;
 }
 
@@ -243,6 +245,7 @@ a {
     background-color: var(--white-color);
 }
 
+  
 
 /* ===== MEDIA QUERIES=====*/
 
@@ -274,4 +277,13 @@ a {
     .body-pd {
         padding-left: calc(var(--nav-width) + 188px);
     }
+
+}
+
+/* product css  */
+
+.ProSub{
+    margin-left: auto;
+    border-radius: 5px; 
+    margin-right: 5px;
 }
